@@ -2,6 +2,7 @@ plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
     id("org.jetbrains.kotlin.plugin.serialization")
+    id("maven-publish")
 }
 
 android {
@@ -93,4 +94,18 @@ dependencies {
 
     // signature view
     implementation("com.github.JoelKanyi:ComposeSignature:1.0.0")
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            create<MavenPublication>("release") {
+                from(components["release"])
+
+                groupId = "com.github.kenmaro3"
+                artifactId = "authblue-kotlin-sdk"
+                version = "0.0.1"
+            }
+        }
+    }
 }
