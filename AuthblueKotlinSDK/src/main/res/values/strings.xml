@@ -1,0 +1,161 @@
+<resources>
+    <string name="API_HOST">https://authblue-api-staging.azurewebsites.net</string>
+
+    <string name="AgreementRequestUserDataNotReadyAlertTitle">同意に必要な情報が不足しています。</string>
+    <string name="AgreementRequestUserDataNotReadyAlertDescription">この同意は情報の提供を要求していますが、要求された情報が登録されていません。必要な情報を登録してから同意を実行してください。</string>
+    <string name="AgreementRequestUserDataNotReadyAlertPrimaryButtonLabel">了解</string>
+    <string name="AgreementRequestUserDataNotReadyAlertSecondaryButtonLabel">キャンセル</string>
+
+    <string name="AgreementRequestUserCertificateNotReadyAlertTitle">同意に必要なデータが不足しています。</string>
+    <string name="AgreementRequestUserCertificateNotReadyAlertDescription">この同意はマイナンバーカードの証明書と電子署名による認証を要求していますが、証明書が登録されていません。証明書を登録してから同意を実行してください</string>
+    <string name="AgreementRequestUserCertificateNotReadyAlertPrimaryButtonLabel">了解</string>
+    <string name="AgreementRequestUserCertificateNotReadyAlertSecondaryButtonLabel">キャンセル</string>
+
+    <string name="PasscodeFieldDescriptionForGettingInfoLabel1">パスワードを入力後</string>
+    <string name="PasscodeFieldDescriptionForGettingInfoLabel2">スキャンの実行</string>
+    <string name="PasscodeFieldDescriptionForGettingInfo">マイナンバーカードに登録したパスワード(登録時の１つ目のパスワード）を入力してください。</string>
+    <string name="PasscodeFieldDescriptionForSignature">マイナンバーカードに登録した署名用のパスコード（登録時の２つ目のパスコード）を入力してください。</string>
+
+    <string name="SignInWelcomeLabel1">さあ, </string>
+    <string name="SignInWelcomeLabel2">AUTHBLUEを\n始めよう </string>
+    <string name="SignInWelcomeLabel3">ログインして次に進んでください。</string>
+    <string name="SignInORLabel">(もしくは)</string>
+    <string name="SignInWithGoogle">Googleでログイン</string>
+    <string name="AgreementCardContentTitle">内容</string>
+    <string name="AgreementCardRequestingInfoTitle">提出された情報</string>
+    <string name="AgreementCardDateTitle">日時</string>
+    <string name="AgreementCardRefCodeTitle">リファレンス番号</string>
+    <string name="AgreementRequestCardFromTitle">同意要請元</string>
+    <string name="AgreementRequestCardToTitle">同意要請先</string>
+    <string name="AgreementRequestCardAgreementMethodTitle">同意を実行する手法</string>
+    <string name="AgreementRequestCardRequestingInfoTitle">提出が必要な情報</string>
+    <string name="AgreementRequestCardContentTitle">内容</string>
+    <string name="AgreementRequestCardDateTitle">日時</string>
+    <string name="PasscodeFieldLabel">マイナンバーカードを利用して情報を取得するには、パスワードとスキャンが必要です。\nスマートフォンをマイナンバーカードにかざして、数秒間キープしてください。</string>
+    <string name="MNCRegisterScanLabel">スキャンしてください。</string>
+    <string name="FirebasePhoneAuthTitle">携帯電話番号による認証</string>
+    <string name="FirebasePhoneAuthLabel">電話番号を入力してください。</string>
+    <string name="FirebasePhoneAuthEnterOTPLabel">ワンタイムパスコードの入力</string>
+    <string name="FirebasePhoneAuthGetCodeLabel">コードを取得</string>
+    <string name="FirebasePhoneAutVerifyCodeLabel">コードの検証</string>
+    <string name="SignatureViewTitle">署名を書いてください。</string>
+
+    <string name="SignInWithGoogleLabel">Googleでログインする</string>
+    <string name="LoginSuccessfulToastLabel">ログインに成功しました。</string>
+
+    <string name="HomeSettingsNavigationTitleAbout">保存情報</string>
+    <string name="HomeSettingsNavigationTitleSignOut">ログアウト</string>
+    <string name="HomeSettingsNavigationTitleDeleteAccount">アカウントの削除</string>
+    <string name="HomeUpdateInfoButtonTitle">情報のアップデート</string>
+
+    <string name="HomeReceiptTitle">レシート一覧</string>
+    <string name="HomeReceiptSubtitle">あなたの同意レシートを確認しましょう\nタップすると詳細を確認できます</string>
+    <string name="HomeBottomNavigationReceiptTitle">レシート</string>
+    <string name="HomeBottomNavigationScanTitle">スキャン</string>
+    <string name="HomeReceiptNumber">件の同意ログ</string>
+
+
+    <string name="MNCRegisterTitle">スキャン</string>
+    <string name="MNCRegisterScanLabel1">マイナンバーカードの</string>
+    <string name="MNCRegisterScanLabel2">スキャンの実行</string>
+    <string name="MNCRegisterScanSecondLabel1">続行するために、マイナンバーカードをスキャンし数秒間キープしてください。</string>
+    <string name="MNCRegisterScanSkipButtonLabel">今はスキップ</string>
+
+    <string name="HomeNotificationTitle">通知</string>
+    <string name="MNCReadInfoTitle">スキャン</string>
+
+    <string name="DyamicLinkReceivedLabel">同意リクエストを受信しました。</string>
+    <string name="DeepLinkAgreementRequestTitle">同意のリクエスト</string>
+    <string name="DeepLinkAgreementRequestSubTitle">同意の内容を確認してください。\nタップすると詳細を確認できます。</string>
+    <string name="DeepLinkAgreementRequestNextButtonLabel">進む</string>
+    <string name="DeepLinkAgreementRequestBackFromDetailButton">戻る</string>
+
+    <string name="DeepLinkAgreementStepsTitle">同意アクションの手順</string>
+    <string name="DeepLinkAgreementStepsBiometricPromptTitle">生体認証プロセス</string>
+    <string name="DeepLinkAgreementStepsBiometricPromptSubTitle">指示の通りに生体認証のプロセスに従って下さい。</string>
+    <string name="DeepLinkAgreementStepsBiometricPromptFailed">生体認証に失敗しました。</string>
+    <string name="DeepLinkAgreementStepsBiometricPromptErrored">生体認証中にエラーが発生しました。</string>
+    <string name="DeepLinkAgreementStepsStepLabel">ステップ</string>
+
+    <string name="DeepLinkAgreementStepsFaceIDLabel">顔認証</string>
+    <string name="DeepLinkAgreementStepsMNCLabel">マイナンバーカード認証</string>
+    <string name="DeepLinkAgreementStepsSignatureLabel">署名</string>
+
+    <string name="DeepLinkAgreementStepsSubmitLabel">同意の提出</string>
+
+
+    <string name="DeepLinkAgreementSentTitle">同意送信の完了</string>
+    <string name="DeepLinkAgreementSentSubTitle">同意レシートを確認しましょう。</string>
+    <string name="DeepLinkAgreementSentGoBackLabel">レシートへ</string>
+
+    <string name="HomeSettingsSectionTitle1">証明書の登録</string>
+    <string name="HomeSettingsSectionTitle2">情報の登録</string>
+    <string name="HomeSettingsNoMyNumberRegistered">マイナンバーの証明書が登録されていません。\nタップして開始してください。</string>
+    <string name="HomeSettingsNoNameRegistered">氏名が登録されていません。\nタップして登録を開始してください。</string>
+    <string name="HomeSettingsNoBirthdayRegistered">生年月日が登録されていません。\nタップして登録を開始してください。</string>
+    <string name="HomeSettingsNoAgeRegistered">年齢が登録されていません。\nタップして登録を開始してください。</string>
+    <string name="HomeSettingsNoSexRegistered">性別が登録されていません。\nタップして登録を開始してください。</string>
+    <string name="HomeSettingsNoAddressRegistered">住所が登録されていません。\nタップして登録を開始してください。</string>
+    <string name="HomeSettingsNoPhoneRegistered">電話番号が登録されていません。\nタップして登録を開始してください。</string>
+    <string name="HomeSettingsNoEmailRegistered">メールアドレスが登録されていません。\nタップして登録を開始してください。</string>
+
+
+    <string name="HomeLogoutConfirmationTitle">ログアウトの確認</string>
+    <string name="HomeLogoutConfirmation">ログアウトしてもよろしいですか？</string>
+    <string name="HomeLogoutConfirmationPrimaryButton">はい</string>
+    <string name="HomeLogoutConfirmationSecondaryButton">いいえ</string>
+
+    <string name="HomeDeleteAccountConfirmationTitle">アカウント削除の確認</string>
+    <string name="HomeDeleteAccountLogoutConfirmation">アカウントを削除してもよろしいですか？　\nアカウントを削除すると、端末に保存されたデータ、及びサービス内に保存された今までの同意ログデータは全て削除されます。</string>
+    <string name="HomeDeleteAccountLogoutConfirmationPrimaryButton">はい</string>
+    <string name="HomeDeleteAccountLogoutConfirmationSecondaryButton">いいえ</string>
+
+    <string name="PhoneRegisterTitle">電話番号認証</string>
+    <string name="PhoneRegisterTitle1">電話番号認証</string>
+    <string name="PhoneRegisterTitle2">\nワンタイムパスコードを発行して開始</string>
+
+    <string name="EmailRegisterTitle">メールアドレス認証</string>
+    <string name="EmailRegisterTitle1">メールアドレス認証</string>
+    <string name="EmailRegisterTitle2">\n以下からメールアドレスを認証</string>
+
+    <string name="HomeReadInfoNameLabel">氏名</string>
+    <string name="HomeReadInfoBirthdayLabel">生年月日</string>
+    <string name="HomeReadInfoAgeLabel">年齢</string>
+    <string name="HomeReadInfoSexLabel">性別</string>
+    <string name="HomeReadInfoAddressLabel">住所</string>
+    <string name="HomeReadInfoEmailLabel">メールアドレス</string>
+    <string name="HomeReadInfoPhoneLabel">電話番号</string>
+
+    <string name="AgreementDetailModalTitle">同意レシート詳細</string>
+    <string name="AgreementDetailModalHeaderBasic">基本情報</string>
+    <string name="AgreementDetailModalHeaderAgreementMethod">同意アクション</string>
+    <string name="AgreementDetailModalHeaderRequestingInfo">提出した情報</string>
+    <string name="AgreementDetailModalHeaderContent">同意内容</string>
+
+    <string name="AgreementDetailModalRefIdLabel">リファレンス番号</string>
+    <string name="AgreementDetailModalClientNameLabel">クライアント名</string>
+    <string name="AgreementDetailModalUserNameLabel">ユーザ名</string>
+    <string name="AgreementDetailModalDateLabel">"同意日時"</string>
+
+    <string name="AgreementDetailModalAgreementMethodFaceIdLabel">顔認証</string>
+    <string name="AgreementDetailModalAgreementMethodMncLabel">マイナンバーカード</string>
+    <string name="AgreementDetailModalAgreementMethodSignatureLabel">署名</string>
+
+    <string name="AgreementDetailModalRequestingInfoNameLabel">氏名</string>
+    <string name="AgreementDetailModalRequestingInfoBirthdayLabel">生年月日</string>
+    <string name="AgreementDetailModalRequestingInfoAgeLabel">年齢</string>
+    <string name="AgreementDetailModalRequestingInfoSexLabel">性別</string>
+    <string name="AgreementDetailModalRequestingInfoAddressLabel">住所</string>
+    <string name="AgreementDetailModalRequestingInfoEmailLabel">メールアドレス</string>
+    <string name="AgreementDetailModalRequestingInfoPhoneLabel">電話番号</string>
+
+    <string name="MyNumberResultToastSuccess">スキャンに成功しました</string>
+    <string name="MyNumberResultToastCountIsNotLeft">パスワードが規定回数以上誤入力されたため、ロックされています。</string>
+    <string name="MyNumberResultToastErrorInsufficientPin">パスワードの長さが足りません</string>
+    <string name="MyNumberResultToastErrorIncorrectPin">パスワードが間違っています</string>
+    <string name="MyNumberResultToastErrorConnection">コネクションエラーが発生しました</string>
+
+    <string name="APIErrorToastUnauthorized">アクセストークンが失効しています。\n再度ログインしてください。</string>
+    <string name="APIErrorToastNotFound">リクエストされたデータが見つかりませんでした。</string>
+    <string name="APIErrorToastUnknownError">予期されないエラーが発生しました。\n開発者に報告してください。</string>
+</resources>
