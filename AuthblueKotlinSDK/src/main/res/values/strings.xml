@@ -1,5 +1,5 @@
 <resources>
-    <string name="API_HOST">https://authblue-api-staging.azurewebsites.net</string>
+    <string name="API_HOST">https://authblue-api-production.azurewebsites.net</string>
 
     <string name="AgreementRequestUserDataNotReadyAlertTitle">同意に必要な情報が不足しています。</string>
     <string name="AgreementRequestUserDataNotReadyAlertDescription">この同意は情報の提供を要求していますが、要求された情報が登録されていません。必要な情報を登録してから同意を実行してください。</string>
